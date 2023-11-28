@@ -1,0 +1,39 @@
+:root {
+    /* Colors */
+    --primary-light: #FFFFFF;
+    --primary-dark: #000000;
+    --accent-color: 	#d17c2d;
+
+    /* Constants for spacing */
+    --padding-xs: 2px;
+    --padding-s: 5px;
+    --padding-m: 10px;
+    --padding-ms: 15px;
+    --padding-l: 20px;
+    --padding-ls: 25px;
+    --padding-xl: 30px;
+    --padding-xls: 35px;
+    --padding-xxl: 40px;
+
+    --padding--xs: -2px;
+    --padding--s: -5px;
+    --padding--m: -10px;
+    --padding--ms: -15px;
+    --padding--l: -20px;
+    --padding--ls: -25px;
+    --padding--xl: -30px;
+    --padding--xls: -35px;
+    --padding--xxl: -40px;
+    
+    /* Radius */
+    --radius: 4px;
+    --radius-xs: 2px;
+    --radius-s: 5px;
+    --radius-m: 10px;
+    --radius-ms: 15px;
+    --radius-l: 20px;
+
+    /* Other Stuff */
+    --header-height: 68px;
+    --nav-height: 34px;
+}
