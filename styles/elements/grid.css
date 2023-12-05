@@ -1,0 +1,124 @@
+.grid {
+    width: 100%;
+    display: grid;
+}
+
+.grid__row {
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+}
+
+.grid__item {
+    position: relative;
+
+    width: calc(100% / 5);
+    aspect-ratio: 1 / 1.053;
+    margin: 5px;
+
+    transition: 0.25s;
+}
+
+.grid__item-flex {
+    display: flex;
+    flex-direction: column;
+
+    aspect-ratio: 1 / 1.053;
+}
+
+.grid__preview {
+    aspect-ratio: 1 / 0.9;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%; 
+    background: center / contain url("../../assets/img/vinyl_placeholder.png") no-repeat;
+}
+
+.grid__title {
+    flex-grow: 1;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid__overlay {
+    position: absolute;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    aspect-ratio: 1 / 1.053;
+
+    opacity: 0;
+
+    background-color: #000000;
+
+    transition: 0.25s;
+
+    display: flex;
+    align-items: center;
+}
+
+.grid__overlay-items {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid__overlay-price {
+    font-family: var(--main-font);
+    color: #FFFFFF;
+    margin: 5px;
+
+    font-weight: bold;
+
+    font-size: 20px;
+}
+
+.grid__overlay-buy {
+    font-family: var(--main-font);
+    width: 150px;
+    height: 50px;
+
+    margin: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+
+    font-size: 20px;
+
+    transition: 0.15s;
+}
+
+.grid__overlay-buy:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+}
+
+.grid__item:hover .grid__overlay {
+    opacity: 0.5;
+}
+
+.grid__item:hover .grid__preview {
+    filter: blur(16px);
+}
+
+.grid__title-name {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid__title-author {
+    margin-top: 5px;
+    font-family: var(--main-font);
+    /* color: var(--accent-color) */
+}

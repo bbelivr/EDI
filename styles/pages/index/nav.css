@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
 
-    background-color: white;
+    background-color: #FFFFFF;
     margin-top: -17px;
 
     border-radius: 13px;
@@ -19,10 +19,12 @@
     align-items: center;
     padding: var(--padding-m);
 
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: var(--main-font);
+
+    transition: 0.1s;
 }
 
 .nav__element:hover {
     /* box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);  */
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid var(--accent-color);
 }

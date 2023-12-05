@@ -7,14 +7,18 @@
         <title>Store: Home</title>
 
         <link rel="stylesheet" href="../styles/pages/common/header.css">
+        <link rel="stylesheet" href="../styles/pages/common/footer.css">
 
         <link rel="stylesheet" href="../styles/pages/index/nav.css">
         <link rel="stylesheet" href="../styles/pages/index/banner.css">
+        <link rel="stylesheet" href="../styles/pages/index/ads.css">
+        <link rel="stylesheet" href="../styles/pages/index/content.css">
 
         <link rel="stylesheet" href="../styles/elements/shadows.css">
         <link rel="stylesheet" href="../styles/elements/dropdown.css">
         <link rel="stylesheet" href="../styles/elements/flex.css">
         <link rel="stylesheet" href="../styles/elements/search.css">
+        <link rel="stylesheet" href="../styles/elements/grid.css">
 
         <link rel="stylesheet" href="../styles/reset.css">
         <link rel="stylesheet" href="../styles/common.css">
@@ -37,7 +41,7 @@
         <header class="shadow-s">
             <div class="header flex shadow-m">
                 <div class="header__left">
-                    <a class="header__logo">
+                    <a class="header__logo" href="../pages/index.html">
                         UwUSounds
                     </a>
                 </div>
@@ -45,6 +49,7 @@
                     
                 </div>
                 <div class="header__right">
+                    <div class="language__container"></div>
                     <div class="search__container">
                         <div class="search">
                             <input class="search__input"></input>
@@ -57,10 +62,10 @@
 
                 <div class="header__far-right">
                     <div class="header__icon-wrapper">
-                        <i class="fi fi-rr-portrait header__icon"></i>
+                        <i class="fi fi-rr-heart header__icon"></i>
                     </div>
                     <div class="header__icon-wrapper">
-                        <i class="fi fi-rr-heart header__icon"></i>
+                        <i class="fi fi-rr-portrait header__icon"></i>
                     </div>
                     <div class="header__icon-wrapper">
                         <i class="fi fi-rr-shopping-cart header__icon"></i>
@@ -75,7 +80,7 @@
             <div class="banner shadow-s">
                 <div class="banner__text-container centered">
                     <h1 class="banner__title">Best Record shop in Krakow</h1>
-                    <p class="banner__paragraph">We sell more then 900 different compositions from authors all over the world.</p>
+                    <p class="banner__paragraph">We sell more than 900 different compositions from authors all over the world.</p>
                     <p class="banner__paragraph">You can get any song for accessible price.</p>
 
                     <div class="banner__button-container">
@@ -111,9 +116,135 @@
                     </div>
                 </a>
             </nav>
-        </main>
-        <footer>
 
+            <div class="main flex">
+                <section class="content">
+                    <div class="content__block">
+                        <h1 class="content__title">New Arrivals</h1>
+                        <div class="content__separator"></div>
+                        <div class="grid">
+                            <div class="grid__row">
+                                <div class="grid__item">
+                                    <div class="grid__item-flex shadow-s">
+                                        <div class="grid__preview" src="../assets/img/vinyl_placeholder.png"></div>
+                                        <div class="grid__title">
+                                            <h2 class="grid__title-name">Sweet Home Alabama</h2>
+                                            <h3 class="grid__title-author">Lynyrd Skynyrd</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid__overlay">
+                                        <div class="grid__overlay-items">
+                                            <h2 class="grid__overlay-price">
+                                                50$
+                                            </h2>
+                                            <button class="grid__overlay-buy">
+                                                Buy
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="grid__item-flex shadow-s">
+                                        <div class="grid__preview" src="../assets/img/vinyl_placeholder.png"></div>
+                                        <div class="grid__title">
+                                            <h2 class="grid__title-name">Sweet Home Alabama</h2>
+                                            <h3 class="grid__title-author">Lynyrd Skynyrd</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid__overlay">
+                                        <div class="grid__overlay-items">
+                                            <h2 class="grid__overlay-price">
+                                                50$
+                                            </h2>
+                                            <button class="grid__overlay-buy">
+                                                Buy
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="grid__item-flex shadow-s">
+                                        <div class="grid__preview" src="../assets/img/vinyl_placeholder.png"></div>
+                                        <div class="grid__title">
+                                            <h2 class="grid__title-name">Sweet Home Alabama</h2>
+                                            <h3 class="grid__title-author">Lynyrd Skynyrd</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid__overlay">
+                                        <div class="grid__overlay-items">
+                                            <h2 class="grid__overlay-price">
+                                                50$
+                                            </h2>
+                                            <button class="grid__overlay-buy">
+                                                Buy
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="grid__item-flex shadow-s">
+                                        <div class="grid__preview" src="../assets/img/vinyl_placeholder.png"></div>
+                                        <div class="grid__title">
+                                            <h2 class="grid__title-name">Sweet Home Alabama</h2>
+                                            <h3 class="grid__title-author">Lynyrd Skynyrd</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid__overlay">
+                                        <div class="grid__overlay-items">
+                                            <h2 class="grid__overlay-price">
+                                                50$
+                                            </h2>
+                                            <button class="grid__overlay-buy">
+                                                Buy
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="grid__item-flex shadow-s">
+                                        <div class="grid__preview" src="../assets/img/vinyl_placeholder.png"></div>
+                                        <div class="grid__title">
+                                            <h2 class="grid__title-name">Sweet Home Alabama</h2>
+                                            <h3 class="grid__title-author">Lynyrd Skynyrd</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid__overlay">
+                                        <div class="grid__overlay-items">
+                                            <h2 class="grid__overlay-price">
+                                                50$
+                                            </h2>
+                                            <button class="grid__overlay-buy">
+                                                Buy
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__button-wrapper">
+                            <button class="content__button centered shadow-s">See More</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section class="ads">
+                    <div class="uek-banner shadow-s"></div>
+                </section> -->
+            </div>
+        </main>
+        <footer class="footer">
+            <h1 class="footer-title">Hello this is footer!</h1>
+            <div class="footer-separator"></div>
+            <div class="footer-links">
+                <a class="footer-link">Github</a>
+                <a class="footer-link">License</a>
+            </div>
+            <div class="footer-separator"></div>
+            <h3 class="footer-madeby">Made by Friends from UEK</h3>
         </footer>
     </body>
 </html>

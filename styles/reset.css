@@ -48,7 +48,7 @@ table {
 }
 
 a, a:visited, a:hover, a:active, a:focus {
-	color: black;
+	color: #000000;
 	text-decoration: none;
 	outline: none;
 }

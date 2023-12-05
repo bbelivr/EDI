@@ -1,0 +1,12 @@
+.ads {
+    display: flex;
+    align-items: center;
+}
+
+.uek-banner {
+    width: 240px;
+    height: 1200px;
+
+    background: #8e023a;
+    margin: 25px;
+}
