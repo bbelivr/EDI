@@ -20,6 +20,7 @@
 .banner__paragraph {
     font-family: var(--main-font);
     font-size: 20px;
+    font-weight: 200;
 
     text-align: center;
     margin: 12px;
@@ -41,8 +42,8 @@
     border-radius: 10px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20);
 
-    font-weight: bold;
     font-family: var(--main-font);
+    font-weight: 400;
     color: #FFFFFF;
 
     transition: 0.5s;

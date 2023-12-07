@@ -5,9 +5,9 @@
 
 .grid__row {
     display: flex;
-    width: 100%;
 
     align-items: center;
+    justify-content: center;
 }
 
 .grid__item {
@@ -16,6 +16,7 @@
     width: calc(100% / 5);
     aspect-ratio: 1 / 1.053;
     margin: 5px;
+    flex-shrink: 1;
 
     transition: 0.25s;
 }
@@ -77,13 +78,14 @@
     color: #FFFFFF;
     margin: 5px;
 
-    font-weight: bold;
+    font-weight: 500;
 
     font-size: 20px;
 }
 
 .grid__overlay-buy {
     font-family: var(--main-font);
+    font-weight: 300;
     width: 150px;
     height: 50px;
 
@@ -100,7 +102,7 @@
 .grid__overlay-buy:hover {
     background-color: #FFFFFF;
     color: #000000;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .grid__item:hover .grid__overlay {
@@ -113,12 +115,13 @@
 
 .grid__title-name {
     font-family: var(--main-font);
+    font-weight: 400;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .grid__title-author {
     margin-top: 5px;
     font-family: var(--main-font);
+    font-weight: 100;
     /* color: var(--accent-color) */
 }
