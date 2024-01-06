@@ -10,7 +10,6 @@ async function getImageFromTrackName(author, track){
     const response = await fetch(`${lostFmURI}track.getInfo&api_key=${apiKey}&artist=${author}&track=${track}&format=json`)
     if (response.statusText == "OK") {
         const responseJson = await response.json();
-        console.log(responseJson.track)
         const images = responseJson?.track?.album?.image[1]['#text'] ?? "no image"; 
         return images;
     } else {
