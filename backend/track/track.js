@@ -10,7 +10,7 @@ async function getImageFromTrackName(author, track){
     const response = await fetch(`${lostFmURI}track.getInfo&api_key=${apiKey}&artist=${author}&track=${track}&format=json`)
     if (response.statusText == "OK") {
         const responseJson = await response.json();
-        const images = responseJson?.track?.album?.image[1]['#text'] ?? "no image"; 
+        const images = responseJson?.track?.album?.image[3]['#text'] ?? "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/malevich5_0_EI2bD0b.width-340.jpg"; 
         return images;
     } else {
         return response.status;
