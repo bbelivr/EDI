@@ -36,6 +36,7 @@ async function createSecondChart(data){
                 borderColor: '#8c43d2',
                 borderWidth: 2,
                 fill: true,
+                tension: 0.3,
               }
             ]
           }
