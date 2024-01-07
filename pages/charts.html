@@ -6,11 +6,11 @@
 
         <link rel="stylesheet" href="../styles/pages/common/header.css">
         <link rel="stylesheet" href="../styles/pages/common/footer.css">
-        <link rel="stylesheet" href="../styles/pages/common/nav.css">
 
-        <link rel="stylesheet" href="../styles/pages/catalog/content.css">
-        <link rel="stylesheet" href="../styles/pages/catalog/catalog.css">
-        <link rel="stylesheet" href="../styles/pages/catalog/filter.css">
+        <link rel="stylesheet" href="../styles/pages/index/nav.css">
+        <link rel="stylesheet" href="../styles/pages/index/banner.css">
+        <link rel="stylesheet" href="../styles/pages/index/ads.css">
+        <link rel="stylesheet" href="../styles/pages/index/content.css">
 
         <link rel="stylesheet" href="../styles/elements/shadows.css">
         <link rel="stylesheet" href="../styles/elements/dropdown.css">
@@ -26,13 +26,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-        <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
 
         <!-- Icons -->
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        
     </head>
 
     <body>
@@ -70,8 +68,8 @@
                     </div>
                 </div>
             </div>
-
-        <main class="content">
+        </header>
+        <main>
             <div class="main flex">
                 <section class="content">
                     <div class="content__block">
@@ -79,7 +77,10 @@
                         <div class="content__separator"></div>
                         <div class="grid">
                             <div class="grid__row" id="new_arrivals">
-                                <div style="width: 400px;"><canvas id="price_chart"></canvas></div>
+                                <div style="width: 600px; margin-bottom: 75px;"><canvas id="price_chart"></canvas></div>
+                            </div>
+                            <div class="grid__row" id="new_arrivals">
+                                <div style="width: 600px; margin-bottom: 35px;"><canvas id="some_chart"></canvas></div>
                             </div>
                         </div>
                     </div>
