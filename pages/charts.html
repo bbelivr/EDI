@@ -26,7 +26,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
 
         <!-- Icons -->
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
@@ -71,43 +71,19 @@
                 </div>
             </div>
 
-            <!-- Navigation -->
-
-            <nav class="nav centered shadow-xs">
-                <a href="">
-                    <div class="nav__element">
-                        Popular
-                    </div>
-                </a>
-                <div class="dropdown">
-                    <div class="dropdown__button nav__element">
-                        Best Sellers <i class="fi fi-ts-angle-small-down"></i>
-                    </div>
-                    <div class="dropdown__content shadow-s">
-                        
-                    </div>
-                </div>
-                <a href="">
-                    <div class="nav__element">
-                        Genres <i class="fi fi-ts-angle-small-down"></i>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="nav__element">
-                        Pre-Order
-                    </div>
-                </a>
-            </nav>
-        </header>
-
         <main class="content">
-            <div class="content__header">
-                <h1 class="content__header-title">New Arrivals</h1>
-            </div>
-            <div class="content__main">
-                <div class="filter__sidebar">
-                    
-                </div>
+            <div class="main flex">
+                <section class="content">
+                    <div class="content__block">
+                        <h1 class="content__title">Charts</h1>
+                        <div class="content__separator"></div>
+                        <div class="grid">
+                            <div class="grid__row" id="new_arrivals">
+                                <div style="width: 400px;"><canvas id="price_chart"></canvas></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
 
@@ -123,3 +99,6 @@
         </footer>
     </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../charts.js"></script>
