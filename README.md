@@ -4,3 +4,6 @@
 3. Clone the repo: `git clone https://github.com/sall0-0p/VinylStore.git`
 4. Change directory: `cd VynilStore`
 5. Install dependencies: `npm i`
+
+# Starting Backend
+To start the backend run `node ./backend/server.js`
