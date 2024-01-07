@@ -1,11 +1,11 @@
 async function loadArtistList() {
-    const responce = await fetch("http://localhost:1111/getArtistsAndNames");
+    const responce = await fetch("https://vinyl-store-olive.vercel.app/getArtistsAndNames");
     const data = await responce.json();
     return data;
 }
 
 async function getImage(artist, song) {
-    const responce = await fetch(`http://localhost:1111/getimage?author=${artist}&track=${song}`);
+    const responce = await fetch(`https://vinyl-store-olive.vercel.app/getimage?author=${artist}&track=${song}`);
     const text = responce.text();
     return text;
 }
